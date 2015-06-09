@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>1 :null ---- misuses of null pointer 
+2 :nullderef ---- possible dereferencce of null pointer 
+3 :nullpass ---- possibly null pointer passed as formal with no null annotation 
+4 :nullret ---- possibly null pointer returned as result with no null annotation 
+5 :nullstate ---- possibly null pointer reachable from a reference with no null annotation 
+6 :nullassign ---- inconsistent assignment or initialization involving null pointer 
+7 :nullinit ---- inconsistent initialization involving null pointer 
+8 :usedef ---- use before definition 
+9 :mustdefine ---- out storage not defined before return or scope exit 
+10 :uniondef ---- at least one field of a union must be defined 
+11 :compdef ---- parameter, return value or global completely defined 
+12 :fullinitblock ---- initializer sets all fields 
+13 :initallelements ---- initializer defines all array elements 
+14 :initsize ---- initializer defines extra array elements 
+15 :impouts ---- pointer parameters to unspecified functions may be implicit out parameters 
+16 :incondefs ---- function, variable or constant redefined with inconsistent type 
+17 :matchfields ---- struct or enum type redefined with inconsistent fields or members 
+18 :fcnderef ---- dereferencce of a function type 
+19 :realcompare ---- dangerous equality comparison between reals (dangerous because of inexact floating point representations) 
+20 :realrelatecompare ---- possibly dangerous relational comparison between reals (dangerous because of inexact floating point representations) 
+21 :unsignedcompare ---- comparison using &lt;, &lt;=, &gt;= between an unsigned integral and zero constant 
+22 :ptrarith ---- arithmetic involving pointer and integer 
+23 :nullptrarith ---- arithmetic involving possibly null pointer and integer 
+24 :ptrcompare ---- comparison between pointer and number 
+25 :strictops ---- primitive operation does not type check strictly 
+26 :bitwisesigned ---- a bitwise logical operator does not have unsigned operands 
+27 :shiftnegative ---- a shift right operand may be negative 
+28 :shiftimplementation ---- a shift left operand may be negative 
+29 :sizeoftype ---- sizeof operator has a type argument 
+30 :sizeofformalarray ---- sizeof operator has an array formal parameter argument 
+31 :fixedformalarray ---- formal parameter of type array is declared with size 
+32 :incompletetype ---- formal parameter has an incomplete type 
+33 :formalarray ---- formal parameter is an array 
+34 :booltype ---- set name of boolean type (default bool) 
+35 :boolfalse ---- set name of boolean false (default false) 
+36 :booltrue ---- set name of boolean true (default true) 
+37 :likelybool ---- type name is probably a boolean type but does not match default boolean type name, "bool", and alternate name is not set 
+38 :boolcompare ---- comparison between bools (dangerous because of multiple true values) 
+39 :boolops ---- primitive operation (!, &amp;&amp; or ||) does not has a boolean argument 
+40 :ptrnegate ---- allow ! to be used on pointer operand 
+41 :predassign ---- condition test (if, while or for) is an assignment 
+42 :predbool ---- type of condition test (if, while or for) not bool (sets predboolint, predboolptr and predboolothers) 
+43 :predboolint ---- type of condition test (if, while or for) is an integral type 
+44 :predboolptr ---- type of condition test (if, while or for) is a pointer 
+45 :predboolothers ---- type of condition test (if, while or for) not bool, int or pointer 
+46 :abstract ---- data abstraction barriers 
+47 :abstractcompare ---- object equality comparison on abstract type operands 
+48 :numabstract ---- data abstraction barriers 
+49 :numabstractcast ---- numeric literal cast to numabstract type 
+50 :numabstractlit ---- numeric literal can used as numabstract type 
+51 :numabstractindex ---- a numabstract type can be used to index an array 
+52 :numabstractprint ---- a numabstract value is printed using %d format code 
+53 :impabstract ---- assume user type definitions are abstract (unless /*@concrete@*/ is used) 
+54 :accessmodule ---- allow access to abstract types in definition module 
+55 :accessfile ---- allow access to abstract types by file name convention 
+56 :accessczech ---- allow access to abstract types by czech naming convention 
+57 :accessslovak ---- allow access to abstract types by slovak naming convention 
+58 :accessczechoslovak ---- allow access to abstract types by czechoslovak naming convention 
+59 :accessall ---- set accessmodule, accessfile and accessczech 
+60 :mutrep ---- representation of mutable type has sharing semantics 
+61 :mustfreefresh ---- freshly allocated storage not released before return or scope exit 
+62 :mustfreeonly ---- only storage not released before return or scope exit 
+63 :mustfree ---- fresh or only storage not released before return or scope exit (sets mustfreefresh and mustfreeonly) 
+64 :usereleased ---- storage used after release 
+65 :strictusereleased ---- element used after it may have been released 
+66 :compdestroy ---- all only references derivable from void pointer out only parameter are released 
+67 :strictdestroy ---- report complete destruction errors for array elements that may have been released 
+68 :deparrays ---- array elements are dependent storage 
+69 :branchstate ---- storage has inconsistent states of alternate paths through a branch 
+70 :strictbranchstate ---- storage through array fetch has inconsistent states of alternate paths through a branch 
+71 :memchecks ---- sets all dynamic memory checking flags (memimplicit, mustfree, mustdefine, mustnotalias, null, memtrans) 
+72 :compmempass ---- actual parameter matches alias kind of formal parameter completely  
+73 :stackref ---- external reference to stack-allocated storage is created 
+74 :memtrans ---- memory transfer errors (sets all *trans flags) 
+75 :dependenttrans ---- dependent transfer errors 
+76 :newreftrans ---- new reference transfer to reference counted reference 
+77 :onlytrans ---- only storage transferred to non-only reference (memory leak) 
+78 :onlyunqglobaltrans ---- only storage transferred to an unqualified global or static reference (memory leak) 
+79 :ownedtrans ---- owned storage transferred to non-owned reference (memory leak) 
+80 :freshtrans ---- fresh storage transferred to non-only reference (memory leak) 
+81 :sharedtrans ---- shared storage transferred to non-shared reference 
+82 :temptrans ---- temp storage transferred to non-temporary reference 
+83 :kepttrans ---- kept storage transferred to non-temporary reference 
+84 :keeptrans ---- keep storage transferred inconsistently 
+85 :immediatetrans ---- an immediate address (result of &amp;) is transferred inconsistently 
+86 :refcounttrans ---- reference counted storage is transferred in an inconsistent way 
+87 :statictrans ---- static storage is transferred in an inconsistent way 
+88 :unqualifiedtrans ---- unqualified storage is transferred in an inconsistent way 
+89 :staticinittrans ---- static storage is used as an initial value in an inconsistent way 
+90 :unqualifiedinittrans ---- unqualified storage is used as an initial value in an inconsistent way 
+91 :readonlytrans ---- report memory transfer errors for initializations to read-only string literals 
+92 :passunknown ---- passing a value as an un-annotated parameter clears its annotation 
+93 :readonlystrings ---- string literals are read-only (error if one is modified or released) 
+94 :memimp ---- memory errors for unqualified storage 
+95 :paramimptemp ---- assume unannotated parameter is temp 
+96 :allimponly ---- sets globimponly, retimponly, structimponly, specglobimponly, specretimponly and specstructimponly 
+97 :codeimponly ---- sets globimponly, retimponly and structimponly 
+98 :specimponly ---- sets specglobimponly, specretimponly and specstructimponly 
+99 :globimponly ---- assume unannotated global storage is only 
+100 :retimponly ---- assume unannotated returned storage is only 
+101 :structimponly ---- assume unannotated structure field is only 
+102 :specglobimponly ---- assume unannotated global storage is only 
+103 :specretimponly ---- assume unannotated returned storage is only 
+104 :specstructimponly ---- assume unannotated structure field is only 
+105 :aliasunique ---- unique parameter is aliased 
+106 :mayaliasunique ---- unique parameter may be aliased 
+107 :mustnotalias ---- temp storage aliased at return point or scope exit 
+108 :retalias ---- function returns alias to parameter or global 
+109 :globalias ---- function returns with global aliasing external state (sets checkstrictglobalias, checkedglobalias, checkmodglobalias and uncheckedglobalias) 
+110 :checkstrictglobalias ---- function returns with a checkstrict global aliasing external state 
+111 :checkedglobalias ---- function returns with a checked global aliasing external state 
+112 :checkmodglobalias ---- function returns with a checkmod global aliasing external state 
+113 :uncheckedglobalias ---- function returns with an unchecked global aliasing external state 
+114 :exposetrans ---- exposure transfer errors 
+115 :observertrans ---- observer transfer errors 
+116 :repexpose ---- abstract representation is exposed (sets assignexpose, retexpose, and castexpose) 
+117 :retexpose ---- abstract representation is exposed (return values only) 
+118 :assignexpose ---- abstract representation is exposed (assignments only) 
+119 :castexpose ---- abstract representation is exposed through a cast 
+120 :redundantsharequal ---- declaration uses observer qualifier that is always true 
+121 :misplacedsharequal ---- declaration of unsharable storage uses sharing annotation 
+122 :mods ---- unspecified modification of caller-visible state 
+123 :mustmod ---- specified modification is not detected 
+124 :modobserver ---- possible modification of observer storage 
+125 :modobserveruncon ---- possible modification of observer storage through unconstrained call 
+126 :modinternalstrict ---- possible modification of internal storage through function call 
+127 :modfilesys ---- report undocumented file system modifications (applies to unspecified functions if modnomods is set) 
+128 :modunspec ---- modification in unspecified functions (sets modnomods, modglobunspec and modstrictglobsunspec) 
+129 :modnomods ---- modification in a function with no modifies clause 
+130 :moduncon ---- possible modification through a call to an unconstrained function 
+131 :modunconnomods ---- possible modification through a call to an unconstrained function in a function with no modifies clause 
+132 :globsimpmodsnothing ---- functions declared with a globals list but no modifies clause are assumed to modify nothing 
+133 :modsimpnoglobs ---- functions declared with a modifies clause but no globals list are assumed to use no globals 
+134 :globstate ---- returns with global in inconsistent state (null or undefined) 
+135 :globs ---- undocumented use of a checked global variable 
+136 :globuse ---- global listed for a function not used 
+137 :internalglobs ---- use of internalState 
+138 :internalglobsnoglobs ---- use of internalState (in function with no globals list) 
+139 :warnmissingglobs ---- global variable used in modifies clause is not listed in globals list 
+140 :warnmissingglobsnoglobs ---- global variable used in modifies clause in a function with no globals list 
+141 :globnoglobs ---- use of checked global in a function with no globals list or specification 
+142 :allglobs ---- report use and modification errors for globals not annotated with unchecked 
+143 :checkstrictglobs ---- report use and modification errors for checkedstrict globals 
+144 :impcheckedspecglobs ---- assume checked qualifier for unqualified global declarations in .lcl files 
+145 :impcheckmodspecglobs ---- assume checkmod qualifier for unqualified global declarations in .lcl files 
+146 :impcheckedstrictspecglobs ---- assume checkmod qualifier for unqualified global declarations in .lcl files 
+147 :impcheckedglobs ---- assume checked qualifier for unqualified global declarations 
+148 :impcheckmodglobs ---- assume checkmod qualifier for unqualified global declarations 
+149 :impcheckedstrictglobs ---- assume checkedstrict qualifier for unqualified global declarations 
+150 :impcheckedstatics ---- assume checked qualifier for unqualified file static declarations 
+151 :impcheckmodstatics ---- assume checkmod qualifier for unqualified file static declarations 
+152 :impcheckmodinternals ---- assume checkmod qualifier for unqualified local static declarations (for internal state modifications) 
+153 :impcheckedstrictstatics ---- assume checkedstrict qualifier for unqualified file static declarations 
+154 :modglobs ---- undocumented modification of a checked global variable 
+155 :modglobsnomods ---- undocumented modification of a checked global variable in a function declared with no modifies clause 
+156 :modstrictglobsnomods ---- undocumented modification of a strict checked global variable in a function declared with no modifies clause 
+157 :modglobsunchecked ---- undocumented modification of an unchecked checked global variable 
+158 :noret ---- path with no return detected in non-void function 
+159 :emptyret ---- empty return in function declared to return value 
+160 :alwaysexits ---- loop predicate always exits 
+161 :loopexec ---- assume all loops execute at least once (sets forloopexec, whileloopexec and iterloopexec) 
+162 :forloopexec ---- assume all for loops execute at least once 
+163 :whileloopexec ---- assume all while loops execute at least once 
+164 :iterloopexec ---- assume all iterator loops execute at least once 
+165 :obviousloopexec ---- assume loop that can be determined to always execute always does 
+166 :evalorder ---- code has unspecified or implementation-dependent behavior because of order of evaluation 
+167 :evalorderuncon ---- code involving call to unspecified function has undefined or implementation-dependent behavior 
+168 :infloops ---- likely infinite loop is detected 
+169 :infloopsuncon ---- likely infinite loop is detected (may result from unconstrained function) 
+170 :casebreak ---- non-empty case in a switch without preceding break 
+171 :misscase ---- switch on enum type missing case for some value 
+172 :firstcase ---- first statement in switch is not a case 
+173 :duplicatecases ---- duplicate cases in switch 
+174 :deepbreak ---- break inside nested while or for or switch 
+175 :looploopbreak ---- break inside nested while or for 
+176 :switchloopbreak ---- break in loop inside switch 
+177 :loopswitchbreak ---- break in switch inside loop 
+178 :switchswitchbreak ---- break in switch inside switch 
+179 :looploopcontinue ---- continue inside nested loop 
+180 :whileempty ---- a while statement has no body 
+181 :whileblock ---- the body of a while statement is not a block 
+182 :forempty ---- a for statement has no body 
+183 :forblock ---- the body of a for statement is not a block 
+184 :ifempty ---- an if statement has no body 
+185 :ifblock ---- the body of an if statement is not a block 
+186 :allempty ---- an if, while or for statement has no body (sets ifempty, whileempty and forempty 
+187 :allblock ---- the body of an if, while or for statement is not a block (sets ifblock, whileblock and forblock) 
+188 :elseifcomplete ---- if ... else if chains must have final else 
+189 :unreachable ---- unreachable code detected 
+190 :noeffect ---- statement with no effect 
+191 :noeffectuncon ---- statement with no effect (except possibly through call to unconstrained function) 
+192 :retval ---- return value ignored (sets retvalint, retvalbool and retvalother) 
+193 :retvalother ---- return value of type other than bool or int ignored 
+194 :retvalbool ---- return value of manifest type bool ignored 
+195 :retvalint ---- return value of type int ignored 
+196 :nullterminated ---- misuse of nullterminated allocation 
+197 :bounds ---- memory bounds checking (sets boundsread and boundswrite) 
+198 :likelybounds ---- memory bounds checking (sets likelyboundsread and likelyboundswrite) 
+199 :likelyboundsread ---- likely out of bounds read 
+200 :likelyboundswrite ---- likely buffer overflow from an out of bounds write 
+201 :boundsread ---- possible out of bounds read 
+202 :boundswrite ---- possible buffer overflow from an out of bounds write 
+203 :fcnpost ---- display function post conditions 
+204 :redundantconstraints ---- display seemingly redundant constraints 
+205 :checkpost ---- unable to verify predicate in ensures clause 
+206 :impboundsconstraints ---- generate implicit constraints for functions 
+207 :orconstraint ---- use limited OR expressions to resolve constraints 
+208 :showconstraintparens ---- display parentheses around constraint terms 
+209 :boundscompacterrormessages ---- Display fewer new lines in bounds checking error messages 
+210 :showconstraintlocation ---- display location for every constraint generated 
+211 :allocmismatch ---- type conversion involves storage of non-divisble size 
+212 :mts ---- load meta state declaration and corresponding xh file 
+213 :statetransfer ---- storage has been transfered with invalid state 
+214 :statemerge ---- control paths merge with storage in incompatible states 
+215 :macroredef ---- macro redefined 
+216 :macrounrecog ---- unrecognized identifier in macro 
+217 :macroconstdecl ---- non-parameterized macro without prototype or specification 
+218 :macroconstdistance ---- macro constant name does not match nearby name 
+219 :macrostmt ---- macro definition is syntactically not equivalent to function 
+220 :macroempty ---- macro definition for is empty 
+221 :macroparams ---- macro parameter not used exactly once 
+222 :macroret ---- return statement in macro body 
+223 :macroassign ---- assignment to a macro parameter 
+224 :macroparens ---- macro parameter used without parentheses (in potentially dangerous context) 
+225 :macrodecl ---- macro without prototype or specification (sets macrofcndecl and macroconstdecl) 
+226 :macrofcndecl ---- parameterized macro without prototype or specification 
+227 :sefparams ---- a parameter with side-effects is passed as a sef parameter 
+228 :sefuncon ---- a parameter with unconstrained side-effects is passed as a sef parameter 
+229 :constmacros ---- check all macros without parameter lists as constants 
+230 :fcnmacros ---- check all macros with parameter lists as functions 
+231 :allmacros ---- sets fcnmacros and constmacros 
+232 :libmacros ---- check all macros with declarations in library as functions 
+233 :specmacros ---- check all macros corresponding to specified functions or constants 
+234 :macromatchname ---- macro definition does not match iter or constant declaration 
+235 :nextlinemacros ---- the line after a constant or iter declaration must be a macro definition 
+236 :iterbalance ---- iter is not balanced with end_&lt;iter&gt; 
+237 :iteryield ---- iter yield parameter is inappropriate 
+238 :hasyield ---- iter declaration has no yield parameters 
+239 :namechecks ---- controls name checking without changing other settings 
+240 :czech ---- czech naming convention (sets accessczech, czechfunctions, czechvars, czechconstants, czechenums, and czechmacros) 
+241 :czechfcns ---- czech naming convention violated in a function or iterator declaration 
+242 :czechvars ---- czech naming convention violated in a variable declaration 
+243 :czechmacros ---- czech naming convention violated in an expanded macro name 
+244 :czechconsts ---- czech naming convention violated in a constant declaration 
+245 :czechtypes ---- czech naming convention violated in a user-defined type definition 
+246 :slovak ---- slovak naming convention violated 
+247 :slovakfcns ---- slovak naming convention violated in a function or iterator declaration 
+248 :slovakmacros ---- slovak naming convention violated in an expanded macro name 
+249 :slovakvars ---- slovak naming convention violated in a variable declaration 
+250 :slovakconsts ---- slovak naming convention violated in a constant declaration 
+251 :slovaktypes ---- slovak naming convention violated in a use-defined type definition 
+252 :czechoslovak ---- czech or slovak naming convention violated 
+253 :czechoslovakfcns ---- czechoslovak naming convention violated in a function or iterator declaration 
+254 :czechoslovakmacros ---- czechoslovak naming convention violated in an expanded macro name 
+255 :czechoslovakvars ---- czechoslovak naming convention violated in a variable declaration 
+256 :czechoslovakconsts ---- czechoslovak naming convention violated in a constant declaration 
+257 :czechoslovaktypes ---- czechoslovak naming convention violated in a user-defined type definition 
+258 :macrovarprefix ---- set namespace prefix for variables declared in a macro body 
+259 :macrovarprefixexclude ---- the macrovarprefix may not be used for non-macro variables 
+260 :tagprefix ---- set namespace prefix for struct, union and enum tags 
+261 :tagprefixexclude ---- the tagprefix may not be used for non-tag identifiers 
+262 :enumprefix ---- set namespace prefix for enum members 
+263 :enumprefixexclude ---- the enumprefix may not be used for non-enum member identifiers 
+264 :filestaticprefix ---- set namespace prefix for file static declarations 
+265 :filestaticprefixexclude ---- the filestaticprefix may not be used for identifiers that are not file static 
+266 :globalprefix ---- set namespace prefix for global variables 
+267 :globalprefixexclude ---- the globalprefix may not be used for non-global identifiers 
+268 :typeprefix ---- set namespace prefix for user-defined types 
+269 :typeprefixexclude ---- the typeprefix may not be used for identifiers that are not type names 
+270 :externalprefix ---- set namespace prefix for external identifiers 
+271 :externalprefixexclude ---- the externalprefix may not be used for non-external identifiers 
+272 :localprefix ---- set namespace prefix for local variables 
+273 :localprefixexclude ---- the localprefix may not be used for non-local identifiers 
+274 :uncheckedmacroprefix ---- set namespace prefix for unchecked macros 
+275 :uncheckedmacroprefixexclude ---- the uncheckmacroprefix may not be used for identifiers that are not unchecked macros 
+276 :constprefix ---- set namespace prefix for constants 
+277 :constprefixexclude ---- the constprefix may not be used for non-constant identifiers 
+278 :iterprefix ---- set namespace prefix for iterators 
+279 :iterprefixexclude ---- the iterprefix may not be used for non-iter identifiers 
+280 :protoparamprefix ---- set namespace prefix for parameters in function prototype declarations 
+281 :isoreserved ---- external name conflicts with name reserved for system or standard library 
+282 :cppnames ---- external or internal name is a C++ keyword or reserved word 
+283 :isoreservedinternal ---- internal name conflicts with name reserved for system or standard library 
+284 :distinctexternalnames ---- external name is not distinguishable from another external name using the number of significant characters 
+285 :externalnamelen ---- set the number of significant characters in an external name 
+286 :externalnamecaseinsensitive ---- alphabetic comparisons for external names are case-insensitive 
+287 :distinctinternalnames ---- internal name is not distinguishable from another internal name using the number of significant characters 
+288 :internalnamelen ---- set the number of significant characters in an internal name 
+289 :internalnamecaseinsensitive ---- set whether case is significant an internal names (-internalnamecaseinsensitive means case is significant) 
+290 :internalnamelookalike ---- lookalike characters match in internal names 
+291 :protoparamname ---- a parameter in a function prototype has a name 
+292 :protoparammatch ---- the name of a parameter in a function prototype and corresponding declaration must match (after removing the protoparamprefix 
+293 :protoparamprefixexclude ---- the protoparamprefix may not be used for non-declaraction parameter identifiers 
+294 :topuse ---- declaration at top level not used 
+295 :exportlocal ---- a declaration is exported but not used outside this module 
+296 :exportheader ---- a declaration is exported but does not appear in a header file 
+297 :exportheadervar ---- a variable declaration is exported but does not appear in a header file 
+298 :fielduse ---- field of structure type not used 
+299 :enummemuse ---- member of an enum type not used 
+300 :constuse ---- constant declared but not used 
+301 :fcnuse ---- function declared but not used 
+302 :paramuse ---- function parameter not used  
+303 :typeuse ---- type declared but not used 
+304 :varuse ---- variable declared but not used 
+305 :unusedspecial ---- unused declaration in special file (corresponding to .l or .y file) 
+306 :declundef ---- function or variable declared but never defined 
+307 :specundef ---- function or variable specified but never defined 
+308 :specundecl ---- function or variable specified but never declared in a source file 
+309 :newdecl ---- report new global declarations in source files 
+310 :needspec ---- information in specifications is not also included in syntactic comments 
+311 :nolib ---- do not load standard library 
+312 :isolib ---- use normal standard library 
+313 :strictlib ---- interpret standard library strictly 
+314 :unixlib ---- use UNIX (sort-of) standard library 
+315 :unixstrictlib ---- use strict version of UNIX (sort-of) library 
+316 :posixlib ---- use POSIX standard library 
+317 :posixstrictlib ---- use strict POSIX standard library 
+318 :whichlib ---- show standard library filename 
+319 :warnposixheaders ---- a POSIX header is included, but the POSIX library is not used 
+320 :warnunixlib ---- warn when the unix library is used 
+321 :usevarargs ---- non-standard &lt;varargs.h&gt; included 
+322 :caseinsensitivefilenames ---- file names are case insensitive (file.h and FILE.H are the same file) 
+323 :dump ---- save state for merging (default suffix .lcd) 
+324 :load ---- load state from dump file (default suffix .lcd) 
+325 :singleinclude ---- optimize header inclusion to eliminate redundant includes 
+326 :neverinclude ---- optimize header inclusion to not include any header files 
+327 :skipsysheaders ---- do not include header files in system directories (set by -sysdirs) 
+328 :gnuextensions ---- support some gnu (gcc) language extensions 
+329 :noparams ---- function declaration has no parameter list 
+330 :oldstyle ---- old style function definition 
+331 :maintype ---- type of main does not match expected type 
+332 :exitarg ---- argument to exit has implementation defined behavior 
+333 :shadow ---- declaration reuses name visible in outer scope 
+334 :incondefslib ---- function, variable or constant defined in a library is redefined with inconsistent type 
+335 :overload ---- library function overloaded 
+336 :nestedextern ---- an extern declaration is inside a function scope 
+337 :redecl ---- function or variable redeclared 
+338 :redef ---- function or variable redefined 
+339 :imptype ---- variable declaration has unknown (implicitly int) type 
+340 :tmpdir ---- set directory for writing temp files 
+341 :larchpath ---- set path for searching for library files (overrides LARCH_PATH environment variable) 
+342 :lclimportdir ---- set directory to search for LCL import files (overrides LCLIMPORTDIR) 
+343 :sysdirs ---- set directories for system files (default /usr/include). Separate directories with path separator (colons in Unix, semi-colons in Windows). Flag settings propagate to files in a system directory. If -sysdirerrors is set, no errors are reported for files in system directories. 
+344 :skipisoheaders ---- prevent inclusion of header files in a system directory with names that match standard ANSI headers. The symbolic information in the standard library is used instead.  Flag in effect only if a library including the ANSI library is loaded.  The ANSI headers are: assert, ctype, errno, float, limits, locale, math, setjmp, signal, stdarg, stddef, stdio, stdlib, strings, string, time, and wchar. 
+345 :skipposixheaders ---- prevent inclusion of header files in a system directory with names that match standard POSIX headers. The symbolic information in the posix library is used instead.  The POSIX headers are: dirent, fcntl, grp, pwd, termios, sys/stat, sys/times, sys/types, sys/utsname, sys/wait, unistd, and utime. 
+346 :sysdirerrors ---- report errors in files in system directories (set by -sysdirs) 
+347 :sysdirexpandmacros ---- expand macros in system directories regardless of other settings, except for macros corresponding to names defined in a load library 
+348 :I&lt;directory&gt; ---- add to C include path 
+349 :S&lt;directory&gt; ---- add to spec path 
+350 :exportany ---- variable, function or type exported but not specified 
+351 :exportfcn ---- function exported but not specified 
+352 :exportmacro ---- expanded macro exported but not specified 
+353 :exporttype ---- type definition exported but not specified 
+354 :exportvar ---- variable exported but not specified 
+355 :exportconst ---- constant exported but not specified 
+356 :exportiter ---- constant exported but not specified 
+357 :linelen ---- set length of messages (number of chars) 
+358 :indentspaces ---- set number of spaces to indent sub-messages 
+359 :locindentspaces ---- set number of spaces to indent sub-messages that start with file locations 
+360 :showdeephistory ---- show all available information about storage mentioned in warnings 
+361 :showcolumn ---- show column number where error is found 
+362 :showloadloc ---- show location information for load files 
+363 :csv ---- produce comma-separated values (CSV) warnings output file 
+364 :csvoverwrite ---- overwrite exisiting CVS output file 
+365 :parenfileformat ---- show column number where error is found 
+366 :htmlfileformat ---- show file locations as links 
+367 :showfunc ---- show name of function containing error 
+368 :showallconjs ---- show all possible types 
+369 :impconj ---- make all alternate types implicit (useful for making system libraries 
+370 :expect ---- expect &lt;int&gt; code errors 
+371 :lclexpect ---- expect &lt;int&gt; spec errors 
+372 :partial ---- check as partial system (-specundef, -declundef, -exportlocal, don't check macros in headers without corresponding .c files) 
+373 :lh ---- generate .lh files 
+374 :lcs ---- generate .lcs files 
+375 :warnflags ---- warn when command line sets flag in abnormal way 
+376 :warnrc ---- warn when there are problems with reading the initialization files 
+377 :badflag ---- warn about bad command line flags 
+378 :fileextensions ---- warn when command line file does not have a recognized extension 
+379 :help ---- -help &lt;flags&gt; will describe flags 
+380 :f ---- read an options file (default ~/.splintrc not loaded) 
+381 :i ---- set LCL initilization file 
+382 :nof ---- do not read options file 
+383 :commentchar ---- set marker character for syntactic comments (default is '@') 
+384 :controlnestdepth ---- set maximum nesting depth of compound statements, iteration control structures, and selection control structures (ANSI89 minimum is 15; ISO99 is 63) 
+385 :stringliterallen ---- set maximum length of string literals (ANSI89 minimum is 509; ISO99 is 4095) 
+386 :numstructfields ---- set maximum number of fields in a struct or union (ANSI89 minimum is 127; ISO99 is 1023) 
+387 :numenummembers ---- set maximum number of members of an enum (ANSI89 minimum is 127; ISO99 is 1023) 
+388 :includenest ---- set maximum number of nested #include files (ANSI89 minimum is 8; ISO99 is 63) 
+389 :ansi89limits ---- check for violations of standard limits (controlnestdepth, stringliterallen, includenest, numstructfields, numenummembers) based on ANSI89 standard 
+390 :iso99limits ---- check for violations of standard limits (controlnestdepth, stringliterallen, includenest, numstructfields, numenummembers) based on ISO99 standard 
+391 :D&lt;initializer&gt; ---- passed to pre-processor 
+392 :U&lt;initializer&gt; ---- passed to pre-processor 
+393 :unrecogdirective ---- unrecognized pre-processor directive 
+394 :supcounts ---- The number of errors detected does not match number in /*@i&lt;n&gt;@*/. 
+395 :limit ---- limit &lt;int&gt; consecutive repeated errors 
+396 :syntax ---- syntax error in parsing 
+397 :trytorecover ---- try to recover from parse error 
+398 :preproc ---- preprocessing error 
+399 :type ---- type mismatch 
+400 :stringliteraltoolong ---- string literal too long for character array 
+401 :stringliteralnoroomfinalnull ---- string literal leaves no room for null terminator 
+402 :stringliteralnoroom ---- string literal leaves no room</value>
+  </data>
+  <metadata name="printDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>
